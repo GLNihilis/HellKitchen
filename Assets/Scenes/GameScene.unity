@@ -369,22 +369,22 @@ PrefabInstance:
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
@@ -394,13 +394,19 @@ PrefabInstance:
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4769122428848116828, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7951687361755970366, guid: 71b331e2a748a39479a1b52c67eda3d8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 91e8fe3de9249fc44b7bdd8050062896,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1130,6 +1136,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3872019561059066889, guid: 71b331e2a748a39479a1b52c67eda3d8,
+        type: 3}
+      propertyPath: kitchenObjectsSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3398102a6995713439893c06aba95743,
+        type: 2}
     - target: {fileID: 4048453756238756301, guid: 71b331e2a748a39479a1b52c67eda3d8,
         type: 3}
       propertyPath: m_Name
