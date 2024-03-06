@@ -62,6 +62,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     {
         HandleMovement();
         HandleInteraction();
+        //transform.Rotate(new Vector3(0, 100, 0) * Time.deltaTime);
     }
 
     public bool IsWalking()
@@ -188,4 +189,5 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     {
         return kitchenObject != null;
     }
+
 }
