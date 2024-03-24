@@ -219,6 +219,7 @@ public class StoveCounter : BaseCounter, IHasProgress
         }
         return null;
     }
+
     private BurningRecipeSO GetBurningRecipeSOWithInput(KitchenObjectsSO inputKitchenObjectsSO)
     {
         foreach (BurningRecipeSO burningRecipeSO in burningRecipeSOArray)
