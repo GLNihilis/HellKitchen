@@ -925,8 +925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32efa4c57f1dd61448fe8ec7450d38fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  container: {fileID: 1572434541}
-  recipeTemplate: {fileID: 706152307}
 --- !u!1 &277950313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,9 +2189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c611bff55450874a89558fa0de4a848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recipeNameText: {fileID: 1967016370}
-  iconContainer: {fileID: 963267869}
-  iconTemplate: {fileID: 1219236901}
 --- !u!1001 &712323193
 PrefabInstance:
   m_ObjectHideFlags: 0

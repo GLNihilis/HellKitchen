@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverUI : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class GameOverUI : MonoBehaviour
             Show();
 
             recipeDeliveredText.text = DeliveryManager.Instance.GetSuccessfulRecipesAmount().ToString();
+
+            Invoke("ToMainMenu", 2f);
         }
         else
         {
@@ -36,5 +39,10 @@ public class GameOverUI : MonoBehaviour
     private void Hide()
     {
         gameObject.SetActive(false);
+    }
+
+    private void ToMainMenu()
+    {
+        Loader.Load(Loader.Scene.MainMenuScene);
     }
 }
